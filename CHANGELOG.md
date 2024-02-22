@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.2.0...1.2.1) (2024-02-22)
+
+
+### Bug Fixes
+
+* civitai secret ([ea85195](https://github.com/implicit-invocation/runpod-worker-comfy/commit/ea8519508ff3ff0732e20a1130d41e2e9ce4c147))
+
 # [1.2.0](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.1.0...1.2.0) (2024-02-22)
 
 
