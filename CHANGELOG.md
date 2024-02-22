@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.2.1...1.2.2) (2024-02-22)
+
+
+### Bug Fixes
+
+* secret again ([52c6080](https://github.com/implicit-invocation/runpod-worker-comfy/commit/52c6080f8964a5c676dcdcd5b6c86f488a90a0e5))
+
 ## [1.2.1](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.2.0...1.2.1) (2024-02-22)
 
 
