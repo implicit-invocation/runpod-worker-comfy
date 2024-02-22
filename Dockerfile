@@ -1,3 +1,5 @@
+ARG CIVITAI_TOKEN
+
 # Use Nvidia CUDA base image
 FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04 as base
 
@@ -37,8 +39,8 @@ RUN pip3 install runpod requests
 # RUN wget -O models/vae/sdxl_vae.safetensors https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors
 # RUN wget -O models/vae/sdxl-vae-fp16-fix.safetensors https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors
 # RUN wget -O models/loras/xl_more_art-full_v1.safetensors https://civitai.com/api/download/models/152309
-RUN wget -O models/checkpoints/pixelmix_v20.safetensors https://civitai.com/api/download/models/339641?token=$CIVITAI_TOKEN
-RUN wget -O models/loras/Ghibli_v6.safetensors https://civitai.com/api/download/models/125985?token=CIVITAI_TOKEN
+RUN wget -O models/checkpoints/pixelmix_v20.safetensors https://civitai.com/api/download/models/339641?token=${CIVITAI_TOKEN}
+RUN wget -O models/loras/Ghibli_v6.safetensors https://civitai.com/api/download/models/125985?token=${CIVITAI_TOKEN}
 
 # Example for adding specific models into image
 # ADD models/checkpoints/sd_xl_base_1.0.safetensors models/checkpoints/
