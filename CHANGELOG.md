@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.1.0...1.2.0) (2024-02-22)
+
+
+### Features
+
+* fix ([ef6b09c](https://github.com/implicit-invocation/runpod-worker-comfy/commit/ef6b09c39eb29ca90bbaa3daadf81774dffa050a))
+
 # [1.1.0](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.0.0...1.1.0) (2024-02-22)
 
 
