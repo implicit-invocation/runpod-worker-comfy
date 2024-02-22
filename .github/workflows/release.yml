@@ -66,7 +66,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          build-args: |
+          secrets: |
             "CIVITAI_TOKEN=${{ secrets.CIVITAI_TOKEN }}"
           tags: |
             ${{ secrets.DOCKERHUB_REPO }}/${{ secrets.DOCKERHUB_IMG }}:${{ steps.semanticrelease.outputs.release-version }}
