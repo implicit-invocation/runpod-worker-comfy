@@ -19,9 +19,11 @@ RUN --mount=type=secret,id=CIVITAI_TOKEN \
 RUN --mount=type=secret,id=CIVITAI_TOKEN \
     wget -O models/loras/Ghibli_v6.safetensors https://civitai.com/api/download/models/125985?token=$(cat /run/secrets/CIVITAI_TOKEN)
 
-# Example for adding specific models into image
-# ADD models/checkpoints/sd_xl_base_1.0.safetensors models/checkpoints/
-# ADD models/vae/sdxl_vae.safetensors models/vae/
+WORKDIR /comfyui/custom_nodes
+RUN git clone https://github.com/Jcd1230/rembg-comfyui-node.git
+RUN cd rembg-comfyui-node && pip3 install -r requirements.txt && cd ..
+
+RUN pip3 install rembg[gpu]
 
 # Go back to the root
 WORKDIR /
