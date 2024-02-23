@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.5.0...1.6.0) (2024-02-23)
+
+
+### Features
+
+* download u2net ([d8c1830](https://github.com/implicit-invocation/runpod-worker-comfy/commit/d8c183046559e2fbbbe44a2bfff4faac4a773d28))
+
 # [1.5.0](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.4.0...1.5.0) (2024-02-23)
 
 
