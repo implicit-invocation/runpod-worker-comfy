@@ -15,7 +15,7 @@ WORKDIR /comfyui
 # RUN wget -O models/vae/sdxl-vae-fp16-fix.safetensors https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors
 # RUN wget -O models/loras/xl_more_art-full_v1.safetensors https://civitai.com/api/download/models/152309
 RUN --mount=type=secret,id=CIVITAI_TOKEN \
-    wget -O models/checkpoints/counterfeitV30_25.safetensors https://civitai.com/api/download/models/7425?token=$(cat /run/secrets/CIVITAI_TOKEN)
+    wget -O models/checkpoints/pixelmix_v20.safetensors https://civitai.com/api/download/models/339641?token=$(cat /run/secrets/CIVITAI_TOKEN)
 RUN --mount=type=secret,id=CIVITAI_TOKEN \
     wget -O models/loras/Ghibli_v6.safetensors https://civitai.com/api/download/models/125985?token=$(cat /run/secrets/CIVITAI_TOKEN)
 
