@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.3.0...1.4.0) (2024-02-23)
+
+
+### Features
+
+* use prebuilt image ([51e7b15](https://github.com/implicit-invocation/runpod-worker-comfy/commit/51e7b15b1dba13bc445bacbc113e99cc186eaa08))
+
 # [1.3.0](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.2.2...1.3.0) (2024-02-23)
 
 
