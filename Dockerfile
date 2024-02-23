@@ -23,6 +23,8 @@ WORKDIR /comfyui/custom_nodes
 RUN git clone https://github.com/Jcd1230/rembg-comfyui-node.git
 RUN cd rembg-comfyui-node && pip3 install -r requirements.txt && cd ..
 
+RUN mkdir -p /root/.u2net
+RUN wget -O /root/.u2net/u2net.onnx https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx
 RUN pip3 install rembg[gpu]
 
 # Go back to the root
