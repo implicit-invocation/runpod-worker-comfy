@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python3 /comfyui/main.py --cpu &
+python3 /comfyui/main.py &
 
 echo "Waiting for comfyui to start for the first time"
 for _ in `seq 1 60`; do
