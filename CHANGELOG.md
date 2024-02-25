@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.7.0...1.7.1) (2024-02-25)
+
+
+### Bug Fixes
+
+* correct dry call ([04ae8f0](https://github.com/implicit-invocation/runpod-worker-comfy/commit/04ae8f0e7a7aa3d079de83e650377c53993a2a11))
+
 # [1.7.0](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.6.0...1.7.0) (2024-02-25)
 
 
