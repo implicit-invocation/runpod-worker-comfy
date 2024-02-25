@@ -37,7 +37,7 @@ ADD src/start.sh src/rp_handler.py test_input.json dry.sh ./
 RUN chmod +x /start.sh
 RUN chmod +x /dry.sh
 
-RUN dry.sh
+RUN /dry.sh
 
 # Start the container
 CMD /start.sh
