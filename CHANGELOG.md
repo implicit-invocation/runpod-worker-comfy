@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.6.0...1.7.0) (2024-02-25)
+
+
+### Features
+
+* dry run for faster startup? ([15d6214](https://github.com/implicit-invocation/runpod-worker-comfy/commit/15d62142066926547f8d02398856e7229fe5c71b))
+
 # [1.6.0](https://github.com/implicit-invocation/runpod-worker-comfy/compare/1.5.0...1.6.0) (2024-02-23)
 
 
